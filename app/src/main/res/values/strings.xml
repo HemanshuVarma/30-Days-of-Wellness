@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">30 Days of Wellness</string>
+
+    <!-- DAY -->
+    <string name="day_1">Day 01</string>
+    <string name="day_2">Day 02</string>
+    <string name="day_3">Day 03</string>
+    <string name="day_4">Day 04</string>
+    <string name="day_5">Day 05</string>
+    <string name="day_6">Day 06</string>
+    <string name="day_7">Day 07</string>
+    <string name="day_8">Day 08</string>
+    <string name="day_9">Day 09</string>
+    <string name="day_10">Day 10</string>
+    <string name="day_11">Day 11</string>
+    <string name="day_12">Day 12</string>
+    <string name="day_13">Day 13</string>
+    <string name="day_14">Day 14</string>
+    <string name="day_15">Day 15</string>
+    <string name="day_16">Day 16</string>
+    <string name="day_17">Day 17</string>
+    <string name="day_18">Day 18</string>
+    <string name="day_19">Day 19</string>
+    <string name="day_20">Day 20</string>
+    <string name="day_21">Day 21</string>
+    <string name="day_22">Day 22</string>
+    <string name="day_23">Day 23</string>
+    <string name="day_24">Day 24</string>
+    <string name="day_25">Day 25</string>
+    <string name="day_26">Day 26</string>
+    <string name="day_27">Day 27</string>
+    <string name="day_28">Day 28</string>
+    <string name="day_29">Day 29</string>
+    <string name="day_30">Day 30</string>
+
+    <!-- TITLE -->
+    <string name="title_d01">Title 01</string>
+
+    <!-- DESCRIPTION -->
+    <string name="desc_d01">Description 01</string>
 </resources>
