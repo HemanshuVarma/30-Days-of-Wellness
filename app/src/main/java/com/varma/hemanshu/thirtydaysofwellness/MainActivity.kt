@@ -54,7 +54,10 @@ fun WellnessApp(modifier: Modifier = Modifier) {
 @Composable
 fun Appbar() {
     CenterAlignedTopAppBar(title = {
-        Text(text = stringResource(id = R.string.app_name))
+        Text(
+            text = stringResource(id = R.string.app_name),
+            style = MaterialTheme.typography.displayLarge
+        )
     })
 }
 
