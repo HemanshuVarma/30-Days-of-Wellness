@@ -1,6 +1,7 @@
 package com.varma.hemanshu.thirtydaysofwellness.ui.homescreen
 
 import android.content.res.Configuration
+import android.util.Log
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
@@ -28,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import com.varma.hemanshu.thirtydaysofwellness.R
 import com.varma.hemanshu.thirtydaysofwellness.model.WellnessTip
 import com.varma.hemanshu.thirtydaysofwellness.ui.theme._30DaysOfWellnessTheme
+import com.varma.hemanshu.thirtydaysofwellness.utils.AppUtils
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -36,6 +38,8 @@ fun WellnessItem(
     modifier: Modifier = Modifier
 ) {
     var isExpanded by remember { mutableStateOf(false) }
+    val thumbnailUrl = AppUtils.getThumbnailUrl(stringResource(id = wellnessTip.videoId))
+    Log.d("WellnessItem", "Final URL for thumbnail is $thumbnailUrl")
     Card(
         modifier = modifier.fillMaxWidth(),
         onClick = { }
@@ -66,7 +70,7 @@ fun WellnessItem(
                 style = MaterialTheme.typography.displayMedium
             )
             Spacer(modifier = Modifier.height(16.dp))
-            WellnessImage(thumbnailUrl = wellnessTip.thumbnail)
+            WellnessImage(thumbnailUrl = thumbnailUrl)
             Spacer(modifier = Modifier.height(8.dp))
             if (isExpanded) {
                 Text(
@@ -99,6 +103,6 @@ fun WellnessItemDarkPreview() {
 private fun getDummyItem() = WellnessTip(
     day = R.string.day_1,
     title = R.string.title_d01,
-    thumbnail = "https://i.ytimg.com/vi/RLzC55ai0eo/hq720.jpg",
-    description = R.string.desc_d01
+    description = R.string.desc_d01,
+    videoId = R.string.video_id_d01
 )

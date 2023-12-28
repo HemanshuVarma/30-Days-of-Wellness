@@ -34,8 +34,29 @@
     <string name="day_30">Day 30</string>
 
     <!-- TITLE -->
-    <string name="title_d01">Title 01</string>
+    <string name="title_d0">HHH</string>
+    <string name="title_d01">Feel How Amazing You Are!</string>
+    <string name="title_d02">Happiness Guided Meditation</string>
+    <string name="title_d03">Finding Peace During the Holidays</string>
+    <string name="title_d04">Clear Yourself of Anxiety &amp; Negative Energy</string>
+    <string name="title_d05">Becoming Your Best Self</string>
+    <string name="title_d06">Gratitude from the Heart</string>
 
     <!-- DESCRIPTION -->
-    <string name="desc_d01">Description 01</string>
+    <string name="desc_d0">HHH</string>
+    <string name="desc_d01">This 5-minute morning guided meditation designed to help you recognize and embrace your innate brilliance, you should emerge with a profound sense of self-affirmation and positivity.</string>
+    <string name="desc_d02">A powerful five-minute guided meditation that promises to unlock a profound sense of happiness from within.</string>
+    <string name="desc_d03">Amidst the festive cheer, may you discover quiet moments that replenish your spirit and bring serenity to your soul.</string>
+    <string name="desc_d04">Clearing anxiety and negative energy from oneself is like lifting a heavy, oppressive fog that once shrouded the mind and spirit.</string>
+    <string name="desc_d05">Become your best self using this 5 minute guided meditation.  Embracing kindness, compassion, and love as guiding principles in one\'s life has the transformative power to lead individuals toward their best selves.</string>
+    <string name="desc_d06">Expressing gratitude from the heart is a deeply enriching experience that radiates warmth throughout one\'s being.  As genuine appreciation flows outward, it fosters a profound sense of connection and fulfillment.</string>
+
+    <!--VIDEO ID-->
+    <string name="video_id_d0">HHH</string>
+    <string name="video_id_d01">Ltft3NZrCrI</string>
+    <string name="video_id_d02">Y1hy5f69CRE</string>
+    <string name="video_id_d03">jRV4pyGRIFI</string>
+    <string name="video_id_d04">yu64O1jdVIk</string>
+    <string name="video_id_d05">OrfVe80_wlU</string>
+    <string name="video_id_d06">m4JJRZzgPio</string>
 </resources>

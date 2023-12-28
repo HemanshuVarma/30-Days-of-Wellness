@@ -5,6 +5,6 @@ import androidx.annotation.StringRes
 data class WellnessTip(
     @StringRes val day: Int,
     @StringRes val title: Int,
-    val thumbnail: String,
-    @StringRes val description: Int
+    @StringRes val description: Int,
+    @StringRes val videoId: Int
 )
