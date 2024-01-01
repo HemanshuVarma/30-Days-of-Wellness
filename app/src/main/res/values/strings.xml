@@ -41,6 +41,12 @@
     <string name="title_d04">Clear Yourself of Anxiety &amp; Negative Energy</string>
     <string name="title_d05">Becoming Your Best Self</string>
     <string name="title_d06">Gratitude from the Heart</string>
+    <string name="title_d07">Self Focus Guided Meditation</string>
+    <string name="title_d08">5 minute sleep meditation</string>
+    <string name="title_d09">5 Minute Energy Cleansing</string>
+    <string name="title_d10">Meditation to Start the Day</string>
+    <string name="title_d11">Feel a Child Like Sense of Joy Happiness</string>
+    <string name="title_d12">Feel Enthusiastic for the Day</string>
 
     <!-- DESCRIPTION -->
     <string name="desc_d0">HHH</string>
@@ -50,6 +56,12 @@
     <string name="desc_d04">Clearing anxiety and negative energy from oneself is like lifting a heavy, oppressive fog that once shrouded the mind and spirit.</string>
     <string name="desc_d05">Become your best self using this 5 minute guided meditation.  Embracing kindness, compassion, and love as guiding principles in one\'s life has the transformative power to lead individuals toward their best selves.</string>
     <string name="desc_d06">Expressing gratitude from the heart is a deeply enriching experience that radiates warmth throughout one\'s being.  As genuine appreciation flows outward, it fosters a profound sense of connection and fulfillment.</string>
+    <string name="desc_d07">This meditation offers a dedicated space for you to pause, reflect, and truly appreciate yourself.  By guiding your attention inward, you can enhance your self-awareness, boost your confidence, and promote a positive mindset.</string>
+    <string name="desc_d08">The carefully curated positive messages woven into the meditation aim to uplift your spirit, promoting relaxation and a peaceful state of mind.</string>
+    <string name="desc_d09">This meditation, recorded and spoken with care, serves as a powerful tool to release accumulated stress and negativity, fostering a sense of renewed energy.</string>
+    <string name="desc_d10">This short meditation allows you to center yourself, cultivate awareness, and establish a peaceful, focused mindset.</string>
+    <string name="desc_d11">Reconnect with your inner child and unlock a profound sense of joy and happiness.</string>
+    <string name="desc_d12">By engaging in this practice, you can shed morning grogginess, self-doubt, and stress, replacing them with a sense of enthusiasm and purpose.</string>
 
     <!--VIDEO ID-->
     <string name="video_id_d0">HHH</string>
@@ -59,4 +71,10 @@
     <string name="video_id_d04">yu64O1jdVIk</string>
     <string name="video_id_d05">OrfVe80_wlU</string>
     <string name="video_id_d06">m4JJRZzgPio</string>
+    <string name="video_id_d07">xO2__O2wkoA</string>
+    <string name="video_id_d08">ciOInp7Ymps</string>
+    <string name="video_id_d09">8AeHD5x3aK0</string>
+    <string name="video_id_d10">bY-xGjV0iR4</string>
+    <string name="video_id_d11">BXD7Mn_Fz1o</string>
+    <string name="video_id_d12">vQhGyjQONaE</string>
 </resources>
