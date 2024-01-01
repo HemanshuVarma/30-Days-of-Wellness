@@ -34,7 +34,6 @@
     <string name="day_30">Day 30</string>
 
     <!-- TITLE -->
-    <string name="title_d0">HHH</string>
     <string name="title_d01">Feel How Amazing You Are!</string>
     <string name="title_d02">Happiness Guided Meditation</string>
     <string name="title_d03">Finding Peace During the Holidays</string>
@@ -47,9 +46,26 @@
     <string name="title_d10">Meditation to Start the Day</string>
     <string name="title_d11">Feel a Child Like Sense of Joy Happiness</string>
     <string name="title_d12">Feel Enthusiastic for the Day</string>
+    <string name="title_d13">Effortless Manifestation</string>
+    <string name="title_d14">Becoming More Radiant</string>
+    <string name="title_d15">A Cleansing Morning</string>
+    <string name="title_d16">I am Enough, All is well</string>
+    <string name="title_d17">5 Minute Gratitude Meditation</string>
+    <string name="title_d18">You are One with the Universe</string>
+    <string name="title_d19">Let Go of The Past</string>
+    <string name="title_d20">Becoming Timeless</string>
+    <string name="title_d21">I AM</string>
+    <string name="title_d22">Floating in the Clouds</string>
+    <string name="title_d23">Discover the Radiant Energy within You!</string>
+    <string name="title_d24">Quiet the Mind, and Reconnect with Your Inner Self</string>
+    <string name="title_d25">Everything is going to be Okay</string>
+    <string name="title_d26">Morning Affirmations for Self Development</string>
+    <string name="title_d27">Self Appreciation</string>
+    <string name="title_d28">Self Love</string>
+    <string name="title_d29">Focus on Your Breath</string>
+    <string name="title_d30">Set Yourself Free</string>
 
     <!-- DESCRIPTION -->
-    <string name="desc_d0">HHH</string>
     <string name="desc_d01">This 5-minute morning guided meditation designed to help you recognize and embrace your innate brilliance, you should emerge with a profound sense of self-affirmation and positivity.</string>
     <string name="desc_d02">A powerful five-minute guided meditation that promises to unlock a profound sense of happiness from within.</string>
     <string name="desc_d03">Amidst the festive cheer, may you discover quiet moments that replenish your spirit and bring serenity to your soul.</string>
@@ -62,9 +78,26 @@
     <string name="desc_d10">This short meditation allows you to center yourself, cultivate awareness, and establish a peaceful, focused mindset.</string>
     <string name="desc_d11">Reconnect with your inner child and unlock a profound sense of joy and happiness.</string>
     <string name="desc_d12">By engaging in this practice, you can shed morning grogginess, self-doubt, and stress, replacing them with a sense of enthusiasm and purpose.</string>
+    <string name="desc_d13">A reminder that you have the ability to attract the life you envision with focused, deliberate thought.</string>
+    <string name="desc_d14">This meditation offers a quick and effective way to tap into your inner light, renewing your energy and positivity.</string>
+    <string name="desc_d15">This morning meditation is a quick and effective way to clear away any lingering negativity and refresh your energy.</string>
+    <string name="desc_d16">We often forget to pause and affirm our own worth, and this meditation provides a brief yet impactful moment to reaffirm your inner peace and self-worth.</string>
+    <string name="desc_d17">This gratitude meditation provides a moment of reflection and mindfulness, helping you shift your focus to the blessings of something simple as water.</string>
+    <string name="desc_d18">Reconnect with a sense of inner peace and oneness with the universe.</string>
+    <string name="desc_d19">Holding onto past regrets, hurts, or resentments can weigh us down, hindering our ability to fully embrace the present and look forward to the future.</string>
+    <string name="desc_d20">A transformative journey that transcends the constraints of time.  This meditation offers an opportunity to disconnect from the fast-paced world and enter a state of timelessness.</string>
+    <string name="desc_d21">"I am" carries a profound significance across various beliefs and spiritual practices.  It signifies self-awareness, the recognition of one\'s existence as a sentient being, and the connection to a higher consciousness or the divine.</string>
+    <string name="desc_d22">In today\'s fast-paced world, taking just a few minutes for yourself can make all the difference in your well-being.</string>
+    <string name="desc_d23">This meditation offers a brief yet transformative journey inward, helping you release stress, find inner peace, and rediscover the radiant energy within you.</string>
+    <string name="desc_d24">In our fast-paced world it\'s easy to become overwhelmed by stress, anxiety, and the constant demands of modern living.</string>
+    <string name="desc_d25">By the time this brief meditation concludes, you\'ll emerge with a renewed sense of peace, carrying with you the assurance that everything is going to be okay.</string>
+    <string name="desc_d26">Start your mornings on a transformative note with our 5-minute morning meditation infused with powerful affirmations for self-development.</string>
+    <string name="desc_d27">This brief meditation allows you to pause, step away from external demands, and turn inward to celebrate your unique qualities and accomplishments.</string>
+    <string name="desc_d28">Speak gentle words to yourself, for the way you talk to yourself matters more than you know.</string>
+    <string name="desc_d29">This is an Original 5 minute guided meditation to focus on your breath. Enjoy!</string>
+    <string name="desc_d30">It is a call to transcend the confines of the material realm and awaken to the boundless nature of your soul.</string>
 
     <!--VIDEO ID-->
-    <string name="video_id_d0">HHH</string>
     <string name="video_id_d01">Ltft3NZrCrI</string>
     <string name="video_id_d02">Y1hy5f69CRE</string>
     <string name="video_id_d03">jRV4pyGRIFI</string>
@@ -77,4 +110,22 @@
     <string name="video_id_d10">bY-xGjV0iR4</string>
     <string name="video_id_d11">BXD7Mn_Fz1o</string>
     <string name="video_id_d12">vQhGyjQONaE</string>
+    <string name="video_id_d13">_YAgCAhVtss</string>
+    <string name="video_id_d14">IHIytDLve70</string>
+    <string name="video_id_d15">1TaiO_0uSto</string>
+    <string name="video_id_d16">RdatoWr8inc</string>
+    <string name="video_id_d17">1kvCi0vqWPI</string>
+    <string name="video_id_d18">vC04VePrGTo</string>
+    <string name="video_id_d19">ROJ_VVc5oPM</string>
+    <string name="video_id_d20">_PINVn62R6M</string>
+    <string name="video_id_d21">IZUI8KycGd4</string>
+    <string name="video_id_d22">geYYteAXLPQ</string>
+    <string name="video_id_d23">6LTy0xxig6k</string>
+    <string name="video_id_d24">9HNt6kp0JN8</string>
+    <string name="video_id_d25">ZylN8eeRzvY</string>
+    <string name="video_id_d26">7Cft0Czxr8A</string>
+    <string name="video_id_d27">j2ThN2ynvPI</string>
+    <string name="video_id_d28">oaPFUTN75yQ</string>
+    <string name="video_id_d29">xld_RmGnANw</string>
+    <string name="video_id_d30">5Mmue6rReZw</string>
 </resources>
