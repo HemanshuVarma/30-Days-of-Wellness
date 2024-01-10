@@ -23,6 +23,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -30,6 +31,7 @@ import com.varma.hemanshu.thirtydaysofwellness.R
 import com.varma.hemanshu.thirtydaysofwellness.model.WellnessTip
 import com.varma.hemanshu.thirtydaysofwellness.ui.theme._30DaysOfWellnessTheme
 import com.varma.hemanshu.thirtydaysofwellness.utils.AppUtils
+import com.varma.hemanshu.thirtydaysofwellness.utils.Constants
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -39,10 +41,12 @@ fun WellnessItem(
 ) {
     var isExpanded by remember { mutableStateOf(false) }
     val thumbnailUrl = AppUtils.getThumbnailUrl(stringResource(id = wellnessTip.videoId))
+    val videoUrl = Constants.YT_SHORT_BASE_URL + stringResource(id = wellnessTip.videoId)
+    val uriHandler = LocalUriHandler.current
     Log.d("WellnessItem", "Final URL for thumbnail is $thumbnailUrl")
     Card(
         modifier = modifier.fillMaxWidth(),
-        onClick = { }
+        onClick = { isExpanded = !isExpanded }
     ) {
         Column(
             modifier = Modifier
@@ -50,7 +54,7 @@ fun WellnessItem(
                 .animateContentSize(
                     animationSpec = spring(
                         dampingRatio = Spring.DampingRatioMediumBouncy,
-                        stiffness = Spring.StiffnessMedium
+                        stiffness = Spring.StiffnessLow
                     )
                 )
         ) {
@@ -70,7 +74,10 @@ fun WellnessItem(
                 style = MaterialTheme.typography.displayMedium
             )
             Spacer(modifier = Modifier.height(16.dp))
-            WellnessImage(thumbnailUrl = thumbnailUrl)
+            WellnessImage(thumbnailUrl = thumbnailUrl) {
+                Log.d("WellnessItem", "VideoUrl is $videoUrl")
+                uriHandler.openUri(videoUrl)
+            }
             Spacer(modifier = Modifier.height(8.dp))
             if (isExpanded) {
                 Text(

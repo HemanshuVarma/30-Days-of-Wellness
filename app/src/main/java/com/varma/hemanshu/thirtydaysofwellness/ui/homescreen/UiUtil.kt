@@ -1,6 +1,7 @@
 package com.varma.hemanshu.thirtydaysofwellness.ui.homescreen
 
 import androidx.compose.animation.animateContentSize
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.layout.wrapContentSize
@@ -18,13 +19,14 @@ import androidx.compose.ui.unit.dp
 import coil.compose.SubcomposeAsyncImage
 
 @Composable
-fun WellnessImage(thumbnailUrl: String) {
+fun WellnessImage(thumbnailUrl: String, onClick: () -> Unit) {
     // Coil image loading
     SubcomposeAsyncImage(
         modifier = Modifier
             .fillMaxWidth()
             .wrapContentHeight()
-            .clip(RoundedCornerShape(8.dp)),
+            .clip(RoundedCornerShape(8.dp))
+            .clickable { onClick() },
         model = thumbnailUrl,
         loading = { CircularProgressIndicator(modifier = Modifier.wrapContentSize()) },
         contentDescription = "Wellness Tip Thumbnail"
